@@ -1,0 +1,110 @@
+[
+    {
+      "id": "623e1915ccaeb840b67d77b4",
+      "name": "SX16 Fitness Smart watch",
+      "price": 39,
+      "brandName": "LEMFO Movement",
+      "quantity": 0,
+      "img": "https://i.pinimg.com/736x/3a/4f/b3/3a4fb3b91acda3ebee8ff57c366c41a5.jpg",
+      "description": "Dynamic Heart Rate Blood Pressure Monitor,just care about your physicial and mental health. life waterproof and dustproof (you can wear it to rain, wash hands,but don't put it into hot water or swimming. Built-in 170mAh battery,Standby Time 15 days, usually working time 5-7 days. Remote control camera:shake to take pictures, Support Bluetooth 4.0 and iOS 8.0 version above and Android 5.0 version above.) "
+    },
+    {
+      "id": "623e1915161a1542f48be8e5",
+      "name": "Realme RMA161 Smart Watch",
+      "price": 45,
+      "brandName": "Realme",
+      "quantity": 0,
+      "img": "https://tiptop.com.bd/wp-content/uploads/2021/10/Realme-RMA161-Square-Smart-Watch.jpg",
+      "description": "Realme RMA161 Square Smart Watch 1.4 inches IPS LCD capacitive touchscreen providing 320 x 320 pixels. The device is incorporated with 380 nits type. the brightness that provides 16M colors with 323 PPI density and 67.7% screen-to-body ratio. "
+    },
+    {
+      "id": "623e1915069703364ab205f8",
+      "name": "Xiaomi Haylou RS4 Black Touch Smart Watch",
+      "price": 39,
+      "brandName": "Xiaomi",
+      "quantity": 0,
+      "img": "https://www.ryanscomputers.com/storage/products/main/xiaomi-haylou-rs4-black-touch-screen-square-shape-11640079527.webp",
+      "description": "IP68 Waterproof - The watch is IP68 waterproof. No need to take off the watch when washing your hands, and you can easily cope with sweating during workouts or stormy rains when you are out. Real- Time Message Reminder. 10 Days Battery Life. Sleep Monitoring, Heart Rate Monitoring, Blood Oxygen Testing. New Look Whenever you want - Customize the watch face with images of your choice. Creative Strap Design. AMOLED HD Display."
+    },
+    {
+      "id": "623e19158657f6c975a07037",
+      "name": "Fitbit Versa 3 Health & Fitness Smartwatch",
+      "price": 179,
+      "brandName": "Versa",
+      "quantity": 0,
+      "img": "https://m.media-amazon.com/images/I/31SlmMionYL.jpg",
+      "description": "Look no further for a health & fitness smartwatch with all the essentials. And don't stop moving on your journey—this battery lasts 6+ days."
+    },
+    {
+      "id": "623e1915081104243cb6370f",
+      "name": "iConnect Women's Square Touchscreen Smart Watch",
+      "price": 50,
+      "brandName": "Timex",
+      "quantity": 0,
+      "img": "https://i.pinimg.com/originals/ac/06/54/ac0654f8211a41299eae5cf83e80ef7e.jpg",
+      "description": "Stay connected with your friends and family while you manage your daily activity, heart rate and sleep patterns using this modern iConnect by Timex smart watch."
+    },
+    {
+      "id": "623e19150a0b4cd20327f414",
+      "name": "S20 Smartwatch 2021 Full Circle IP67 Smart Watch Men",
+      "price": 39,
+      "brandName": "Samsung",
+      "quantity": 0,
+      "img": "https://i5.walmartimages.com/asr/5389df00-246a-4dfa-8850-317ed361f26f.b0774c576b43e95742be73ab02002b86.jpeg",
+      "description": "S20 Smartwatch 2021 Full Circle IP67 Smart Watch Men ECG Heart Rate Monitoring Fitness Sports Long Standby for Samsung"
+    },
+    {
+      "id": "623e1915134be2afb1a43547",
+      "name": "CURREN Men Fashion Chronograph Male Sport Watch",
+      "price": 27,
+      "brandName": "CURREN",
+      "quantity": 0,
+      "img": "https://www.zymak.com.bd/wp-content/uploads/2019/06/K88H-Smart-Watch-Black.jpg",
+      "description": "CURREN Men Fashion Chronograph Male Top Brand Luxury Quartz Watch Men Leather Waterproof Sport Watch Relogio Masculino 8329."
+    },
+    {
+      "id": "623e19156dee9af927d64d70",
+      "name": "Fanteeda Stainless Steel Quartz Wrist Watch",
+      "price": 22,
+      "brandName": "Fanteeda ",
+      "quantity": 0,
+      "img": "https://sc04.alicdn.com/kf/H48f2a0d04eb341e0b4945e53be01bf70Z.jpg",
+      "description": "Hot Selling Fanteeda Branded Stainless Steel Quartz Wrist Watches With Date For Mens Watches MW-310"
+    },
+    {
+      "id": "623e191565b2c9581620deed",
+      "name": "Naviforce NF9056 Men Leather Band Quartz",
+      "price": 18,
+      "brandName": "NAVIFORCE",
+      "quantity": 0,
+      "img": "https://www.shopz.com.bd/wp-content/uploads/2019/12/NIBOSI-Relogio-Masculino-Men-Watches-Luxury-Famous-Top-Brand-Men-s-Fashion-Casual-Dress-Watch-Military-4.jpg_640x640-4-300x300.jpg",
+      "description": "100% New with tag and high quality Leisure Army Military design Men’s watch Water resistant (Washing Hand) Date and Hours display Higher Quality Leather Band."
+    },
+    {
+      "id": "623e1915b0d69fdbf70fe1f9",
+      "name": "Apple Smart Watch Series 3",
+      "price": 39,
+      "brandName": "Apple",
+      "quantity": 0,
+      "img": "https://unixnetworkbd.com/image/cache/catalog/unix_network_images/4.2020/apple-smart-watch-series-3-(mql12ll-a)-42mm/Apple-Smart-Watch-Series-3-(MQL12LL-A)-42mm-Space-Gray-500x500.jpg",
+      "description": "Apple MQL12LL/A Smart Watch connects to your iPhone via Bluetooth 4.2 and displays notifications, apps, and more on its 1.65 OLED Resolution (312 x 390) display. It can also connect directly to the Internet thanks to 802.11b/g/n Wi-Fi. The internal battery lasts for up to 18 hours of normal use and is recharged with an included inductive magnetic charger. It has 768 MB Ram , 8 GB Storage capacity, Apple S3 Dual-Core CPU,Accelerometer, Altimeter, Barometer, Compass, Gyroscope, Heart Rate, Light Sensor. In additional,Apple Watch senses how much pressure you use when you tap on its face, adding a new dimension to the ways you can interact with it."
+    },
+    {
+      "id": "623e19153e20aba25aa4fc6c",
+      "name": "Refurbished Apple Watch Series 5",
+      "price": 198,
+      "brandName": "Apple",
+      "quantity": 0,
+      "img": "https://i5.walmartimages.com/asr/305a98df-cfe0-4a8f-bd26-80a3c3f2a1f2_1.afc350e80445e515b10b37d335357308.png",
+      "description": "This Apple Watch has been certified by our industry-leading mobile diagnostic software to be 100% fully functional. It is in EXCELLENT Grade A 9+/10 cosmetic condition showing only extremely light signs of wear from handling. USB charging cable and band are included. Original packaging is not included. Refurbished Apple Watch Series 5 (GPS) 44mm Space Gray Aluminum Case with Black Sport Band - Space Gray Aluminum."
+    },
+    {
+      "id": "623e1915bb8919ad6efb0c51",
+      "name": "APPLE WATCH SERIES 5",
+      "price": 210,
+      "brandName": "LEMFO Movement",
+      "quantity": 0,
+      "img": "https://www.mobiledokan.co/wp-content/uploads/2019/09/Apple-Watch-Series-5.jpg",
+      "description": "GOOD STUFF Finally, an always-on screen Big, beautiful display New apps round out its capabilities."
+    }
+]
