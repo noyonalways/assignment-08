@@ -12,3 +12,8 @@
     color: #fff;
     border-radius: 50%;
 }
+
+.added-product{
+    /* border-top: 1px solid #000;   */
+    border-bottom: 1px solid rgb(207, 207, 207); 
+}

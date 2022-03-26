@@ -14,15 +14,23 @@ const Shop = () => {
 
 
     const addToCart = (selectedProduct) => {
-        const newCart = [...cart, selectedProduct];
-        setCart(newCart);
+        if (cart.length < 4) {
+            const newCart = [...cart, selectedProduct];
+            setCart(newCart);
+        } else {
+            alert("Yon can choose only 4 item at a time!!")
+        }
+    }
+
+    const chooseAgain = () => {
+        setCart([]);
     }
 
     return (
         <section className="shop mb-4">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6 col-lg-8">
+                    <div className="col-md-6 col-lg-8 order-last order-md-first">
                         <div className="row g-3">
                             {
                                 products.map(product => <Product
@@ -33,8 +41,10 @@ const Shop = () => {
                             }
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-4">
-                        <Cart cartData={cart}></Cart>
+                    <div className="col-md-6 col-lg-4 mb-4 mb-md-0">
+                        <Cart cartData={cart}
+                              chooseAgain={chooseAgain}
+                        ></Cart>
                     </div>
                 </div>
             </div>
