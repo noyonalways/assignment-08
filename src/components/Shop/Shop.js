@@ -44,7 +44,7 @@ const Shop = () => {
     
 
     return (
-        <section className="shop mb-4">
+        <section className="shop">
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 col-lg-8 order-last order-md-first">

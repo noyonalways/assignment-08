@@ -8,6 +8,7 @@ const Cart = ({ cartData, chooseAgain, randomChoose, randomProducts }) => {
     return (
         <div className="cart-parent">
             <div className="cart-section">
+                <p className="message mb-2 text-center">You can choose maximum 4 items</p>
                 <h5 className='text-center mb-0 pb-2'>Selected items</h5>
                 {
                     cartData.map(product => <AddedProduct

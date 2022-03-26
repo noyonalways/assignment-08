@@ -5,6 +5,8 @@ import Shop from './components/Shop/Shop';
 import "aos/dist/aos.css";
 import Aos from "aos";
 import { useEffect } from 'react';
+import Questions from './components/Questions/Questions';
+import Footer from './components/Foooter/Footer';
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
     <div className="App">
       <Header></Header>
       <Shop></Shop>
+      <Questions></Questions>
+      <Footer></Footer>
     </div>
   );
 }

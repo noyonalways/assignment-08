@@ -5,7 +5,7 @@ const FinalProduct = ({ product }) => {
     
 
     const { img, name, price } = product;
-    console.log(img)
+    // console.log(img)
 
     return (
         <div className='mt-4 fn-product'>
