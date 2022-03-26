@@ -14,17 +14,24 @@ const Shop = () => {
 
 
     const addToCart = (selectedProduct) => {
+        const exists = cart.find(product => product.id === selectedProduct.id);
         if (cart.length < 4) {
-            const newCart = [...cart, selectedProduct];
-            setCart(newCart);
+            if (!exists) {
+                const newCart = [...cart, selectedProduct];
+                setCart(newCart);
+            } else {
+                alert("You can't choose duplicate.")
+            }
         } else {
-            alert("Yon can choose only 4 item at a time!!")
+            alert("Yon can choose only 4 item at a time!!");
         }
     }
 
     const chooseAgain = () => {
         setCart([]);
     }
+
+    
 
     return (
         <section className="shop mb-4">

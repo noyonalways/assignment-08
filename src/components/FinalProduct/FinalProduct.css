@@ -1,0 +1,11 @@
+.fn-product{
+    background: #ECEFF1;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.247);
+    padding: 1rem .8rem;
+    border-radius: .2rem;
+}
+
+.fn-product-img{
+    width: 50px;
+    border-radius: 50%;
+}
