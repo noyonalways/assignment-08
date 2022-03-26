@@ -3,16 +3,8 @@ import AddedProduct from '../AddedProduct/AddedProduct';
 import FinalProduct from '../FinalProduct/FinalProduct';
 import "./Cart.css";
 
-const Cart = ({ cartData, chooseAgain }) => {
-
-    const [randomProducts, setRandomProducts] = useState([]);
-
-    const randomChoose = (productArray) => {
-        const randomOne = productArray[Math.floor(Math.random() * productArray.length)];
-        setRandomProducts(randomOne);
-    }
-    // console.log(randomProducts)
-     
+const Cart = ({ cartData, chooseAgain, randomChoose, randomProducts }) => {
+   
     return (
         <div className="cart-parent">
             <div className="cart-section">

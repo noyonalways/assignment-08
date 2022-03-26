@@ -31,6 +31,16 @@ const Shop = () => {
         setCart([]);
     }
 
+    const [randomProducts, setRandomProducts] = useState([]);
+    const randomChoose = (productArray) => {
+        if (productArray) {
+            const randomOne = productArray[Math.floor(Math.random() * productArray.length)];
+            setRandomProducts(randomOne);
+            setCart([])
+        }
+    }
+    // console.log(randomProducts)
+
     
 
     return (
@@ -49,7 +59,9 @@ const Shop = () => {
                     </div>
                     <div className="col-md-6 col-lg-4 mb-4 mb-md-0 px-4">
                         <Cart cartData={cart}
-                              chooseAgain={chooseAgain}
+                            randomChoose={randomChoose}
+                            chooseAgain={chooseAgain}
+                            randomProducts={randomProducts}
                         ></Cart>
                     </div>
                 </div>
