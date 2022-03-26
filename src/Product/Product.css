@@ -1,6 +1,11 @@
 .product{
-    box-shadow: 0px 1px 8px lightgrey;
+    box-shadow: 0px 1px 5px rgba(70, 70, 70, 0.247);
     border-radius: .2rem;
+    transition: .3s;
+}
+
+.product:hover{
+    box-shadow: 1px 1px 8px rgba(77, 77, 77, 0.411);
 }
 
 .product-image{
@@ -28,15 +33,16 @@
 .btn-1, .btn-2{
     padding: .4rem 1rem;
     display: inline-block;
-    font-size: 14px;
+    font-size: 13px;
     color: #fff;
     border-radius: .2rem;
     transition: .3s;
+
 }
 
 .btn-1{
     background: #11C584;
-    border: 1px solid #11C584
+    border: 1px solid #11C584;
     
 }
 
