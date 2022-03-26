@@ -31,7 +31,7 @@ const Shop = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 col-lg-8 order-last order-md-first">
-                        <div className="row g-3">
+                        <div className="row g-3 px-3 px-md-0">
                             {
                                 products.map(product => <Product
                                     key={product.id}
@@ -41,7 +41,7 @@ const Shop = () => {
                             }
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-4 mb-4 mb-md-0">
+                    <div className="col-md-6 col-lg-4 mb-4 mb-md-0 px-4">
                         <Cart cartData={cart}
                               chooseAgain={chooseAgain}
                         ></Cart>
