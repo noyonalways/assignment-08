@@ -1,6 +1,9 @@
 import React from 'react';
-import "./Product.css"
+import "./Product.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+  import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
+  
 const Product = ({ productData, addToCart }) => {
     const { name, img, price } = productData;
     let shortName;
@@ -21,7 +24,7 @@ const Product = ({ productData, addToCart }) => {
                     <h5 className='mb-2'>{shortName}</h5>
                     <p className="text-muted price mb-2">Price: ${price}</p>
                     <div className="d-flex justify-content-between">
-                        <button onClick={() => addToCart(productData)} className='btn-1'>Add to cart</button>
+                        <button onClick={() => addToCart(productData)} className='btn-1'>Add to cart <FontAwesomeIcon icon={faShoppingCart} /> </button>
                         <button className='btn-2'>See Details</button>
                     </div>
                 </div>

@@ -13,6 +13,10 @@ const Cart = ({ cartData }) => {
                     key={product.id}
                 ></AddedProduct>)
             }
+            <div className="d-flex justify-content-around">
+                <button className='btn-1'>Choose 1 for me</button>
+                <button className='btn-2'>Choose again</button>
+            </div>
         </div>
     );
 };

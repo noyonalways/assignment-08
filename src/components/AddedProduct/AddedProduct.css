@@ -5,3 +5,10 @@
     background: #fff;
     margin-right: .4rem;
 }
+
+.delete-btn{
+    background: #ff5c5c;
+    border: 1px solid #ff5c5c;
+    color: #fff;
+    border-radius: 50%;
+}

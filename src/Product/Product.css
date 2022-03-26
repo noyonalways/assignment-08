@@ -31,9 +31,9 @@
 }
 
 .btn-1, .btn-2{
-    padding: .4rem 1rem;
+    padding: .4rem .8rem;
     display: inline-block;
-    font-size: 13px;
+    font-size: 12px;
     color: #fff;
     border-radius: .2rem;
     transition: .3s;
