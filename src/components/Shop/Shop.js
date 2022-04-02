@@ -41,6 +41,12 @@ const Shop = () => {
     }
     // console.log(randomProducts)
 
+
+    const handleRamoveProduct = (selectecProduct) => {
+        const rest = cart.filter(product => product.id !== selectecProduct.id);
+        setCart(rest);
+    }
+
     
 
     return (
@@ -62,6 +68,7 @@ const Shop = () => {
                             randomChoose={randomChoose}
                             chooseAgain={chooseAgain}
                             randomProducts={randomProducts}
+                            handleRamoveProduct={handleRamoveProduct}
                         ></Cart>
                     </div>
                 </div>
